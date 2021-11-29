@@ -1,0 +1,106 @@
+@font-face{
+  src:url(fonts/Whippy.otf);
+  font-family: Whippy;
+} 
+
+*{
+  margin:0;
+  padding:0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+h1{
+  font-family: Whippy;
+  font-size: 55px;
+  padding-top: 5%;
+}
+
+.titulo{
+  text-align: center;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.palabras{
+  text-align: center;
+}
+
+.palabras input{
+  font-size: 30px;
+  background: white;
+  border: 2px solid black;
+  padding: 1%;
+  transition: all 0.5s ease-in-out;
+}
+
+.palabras input:hover{
+  color: white;
+  background: #F3C622;
+  transition: all 0.5s ease-in-out;
+}
+
+.borrar{
+text-align: center;
+margin-top: 30px;
+}
+
+.borrar input{
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+  background: red;
+  border: 3px solid white;
+  padding-top:1%;
+  padding-bottom: 1%;
+  padding-right: 1.8%;
+  padding-left: 1.8%;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+
+.borrar input:hover{
+  color: white;
+  background: #F3C622;
+  transition: all 0.5s ease-in-out;
+}
+
+/***/
+
+.respuesta{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+#mostrar{
+  font-family: Whippy;
+  font-size: 30px;
+}
+
+/***/
+
+.responder{
+  margin-top: 5%;
+  text-align: center;
+}
+
+.responder button{
+  font-size: 45px;
+  color: black;
+  font-weight: 900;
+  background: white;
+  border: 3px solid black;
+  padding: 1%;
+  font-family: Whippy;
+  transition: all 0.5s ease-in-out;
+}
+
+.responder button:hover{
+  color: white;
+  background: #F3C622;
+  transition: all 0.5s ease-in-out;
+  border: 3px solid white;
+}
