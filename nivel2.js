@@ -31,7 +31,7 @@ anim9.style.animationPlayState='paused';
 
 }).then((result) => {
    if (result.value) {
-     window.location.href = `nivel2.html`
+     window.location.href = `nivel3.html`
    }
  }); 
 }
