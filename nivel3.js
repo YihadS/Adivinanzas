@@ -81,7 +81,7 @@ if (mostrar.innerText == 'ABANICO'){
 
 }).then((result) => {
    if (result.value) {
-     window.location.href = `nivel3.html`
+     window.location.href = `nivel4.html`
    }
  }); 
 }
