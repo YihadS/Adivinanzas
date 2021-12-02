@@ -118,3 +118,26 @@ transition: all 0.5s ease-in-out;
 .swal2-popup {
   font-family: Whippy;
 }
+
+/*____*/
+
+@media only screen and (max-width: 600px) {
+
+h1{
+font-size: 30px;
+}
+
+#p2{
+  margin-left: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.s1{
+  width:100%;
+}
+
+.seccion1 img{
+  margin-right: 0;
+}
+}
